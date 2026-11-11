@@ -11,7 +11,7 @@ export default function Home() {
     <div className="surface-stage flex justify-center px-3.5 pb-9 pt-4.5">
       <div className="w-full max-w-[560px]">
         <p className="eyebrow mb-2.5 mt-0.5 text-center text-brand-deep">
-          GARV 2026
+          INFINI 2026
         </p>
         <BrandBar />
 

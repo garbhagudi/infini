@@ -478,7 +478,7 @@ check("dash lines become one bullet list under the wording", () => {
 });
 
 check("a dash with no space after it is still a bullet, as people type them", () => {
-  // Exactly the wording in the GARV set: no space after the dash.
+  // Exactly the wording in the INFINI set: no space after the dash.
   eq(
     parseQuestionText(
       "In a patient undergoing ovarian stimulation:\n-Estradiol is rising rapidly.\n-What is the interpretation?",

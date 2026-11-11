@@ -17,7 +17,7 @@ const config: Config = {
         body: "rgb(var(--c-body) / <alpha-value>)",
         sub: "rgb(var(--c-sub) / <alpha-value>)",
         muted: "rgb(var(--c-muted) / <alpha-value>)",
-        // The GARV crimson. `light`, `dark` and `tint` are the crimson band on
+        // The INFINI crimson. `light`, `dark` and `tint` are the crimson band on
         // the home page and its small print, which stays crimson in both
         // themes, so they are the one set of colours left as plain hex.
         brand: {

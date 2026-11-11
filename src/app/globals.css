@@ -10,14 +10,14 @@
    text-plum, bg-petal/60 and border-ink/10 all read from one place.
 
    There is one palette, and it is light. That is the brand: blush ground, cream
-   card, plum ink, GARV crimson. Everybody sees it, whatever their phone is set
+   card, plum ink, INFINI crimson. Everybody sees it, whatever their phone is set
    to.
 
    Why there is still a dark block below, and why it says the same thing: phones
    in dark mode do not take no for an answer. Samsung Internet documents that it
    applies the developer's dark styles if the page declares it has them, and
    otherwise applies its own transformation - which turned the cream card
-   charcoal, plum to lilac, and made the black GARV wordmark vanish into its
+   charcoal, plum to lilac, and made the black INFINI wordmark vanish into its
    darkened bar. The "only light" opt-out is honoured only behind an
    experimental flag. So the page declares dark support, and its dark styles
    are the light palette. The browser applies them and leaves the page alone.

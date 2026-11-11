@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props) {
  *
  * The run screen on its own, so it can be opened on a second screen and left
  * there. Addressed by the event's code as readily as by its id - a host can
- * type /admin/organizations/garv/dashboard from memory, which is the point of
+ * type /admin/organizations/infini/dashboard from memory, which is the point of
  * it having a URL at all.
  */
 export default async function OrganizationDashboardPage({ params }: Props) {

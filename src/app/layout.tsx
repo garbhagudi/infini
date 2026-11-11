@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     default: "Quiz Challenge - GarbhaGudi",
     template: "%s - GarbhaGudi Quiz",
   },
-  description: "Live quiz for GARV 2026, GarbhaGudi.",
+  description: "Live quiz for INFINI 2026, GarbhaGudi.",
   robots: { index: false, follow: false },
 };
 

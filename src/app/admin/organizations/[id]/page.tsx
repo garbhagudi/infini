@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props) {
 
 /**
  * Reached by id from the list, and by code from anywhere else - so
- * /admin/organizations/garv opens the same page as /admin/organizations/5.
+ * /admin/organizations/infini opens the same page as /admin/organizations/5.
  */
 export default async function OrganizationDetailPage({ params }: Props) {
   const organization = await getOrganizationByIdOrSlug((await params).id);

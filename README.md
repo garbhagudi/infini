@@ -104,7 +104,7 @@ It has a URL of its own: **`/organizations/<code>/dashboard`** - or the full
 `/admin/organizations/<code>/dashboard`, which is where the short one redirects
 to. Addressed by the event's code rather than a database id, so a host can type
 it from memory and leave it open on a second screen for the whole session. The
-organization page answers to the code too, so `/admin/organizations/garv` and
+organization page answers to the code too, so `/admin/organizations/infini` and
 `/admin/organizations/5` are the same page.
 
 The short URL is a redirect rather than a second copy of the screen: the real

@@ -24,7 +24,7 @@ const port = Number(process.env.PORT ?? 3001);
 // Must match docker-compose.yml.
 const pgPort = Number(process.env.LOCAL_PG_PORT ?? 5433);
 const PG_URL =
-  process.env.LOCAL_PG_URL ?? `postgres://quiz:quiz@127.0.0.1:${pgPort}/garv_quiz`;
+  process.env.LOCAL_PG_URL ?? `postgres://quiz:quiz@127.0.0.1:${pgPort}/infini_quiz`;
 
 // The translator listens here; any spare port will do.
 const bridgePort = Number(process.env.LOCAL_BRIDGE_PORT ?? 5452);

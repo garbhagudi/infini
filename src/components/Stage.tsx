@@ -4,23 +4,21 @@ import type { ReactNode } from "react";
 /**
  * The white brand bar that tops every student-facing screen.
  *
- * The artwork stacks the GarbhaGudi lockup above the GARV wordmark (715 × 330),
- * so it is nearly twice as tall for its width as a single-line logo. The widths
- * below are set from the fine print rather than the wordmark: the Kannada type
- * and "The art of ART" stop being readable much under 240px.
+ * The artwork is the infinitheism wordmark under its three red dots (1200 × 336),
+ * a wide single-line logo, so it is capped by width and stays short.
  */
 export function BrandBar() {
-  // Stays true white in both themes: the black GARV wordmark only works on
-  // white, and this plate is what kept it readable when a phone darkened
-  // everything else around it.
+  // Stays true white in both themes: the dark plum infinitheism wordmark only
+  // works on white, and this plate is what keeps it readable when a phone
+  // darkens everything else around it.
   return (
     <header className="mb-3.5 flex items-center justify-center rounded-[20px] border border-brand/15 bg-white px-4 py-3.5 shadow-bar sm:px-5">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/garv-2026-logo.webp"
-        alt="GarbhaGudi · GARV 2026 - The art of ART"
-        width={715}
-        height={330}
+        src="/infini-2026-logo.webp"
+        alt="infinitheism"
+        width={1200}
+        height={336}
         className="h-auto w-full max-w-[248px] sm:max-w-[288px]"
       />
     </header>

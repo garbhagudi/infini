@@ -36,7 +36,7 @@ export async function getOrganizationById(
 /**
  * Resolve an event from whatever is in the URL: the numeric id the admin list
  * links with, or the code a host would type from memory. Lets a dashboard live
- * at /admin/organizations/garv/dashboard rather than at an id nobody knows.
+ * at /admin/organizations/infini/dashboard rather than at an id nobody knows.
  */
 export async function getOrganizationByIdOrSlug(
   key: string,
